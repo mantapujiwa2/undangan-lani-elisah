@@ -553,7 +553,17 @@
         </div>
     </div>
 
-        <!-- Loading Page -->
+    <!-- Theme Button -->
+    <button type="button" id="button-theme" style="display: block; bottom: 15vh;" class="btn bg-light-dark border btn-sm rounded-circle btn-float position-fixed shadow-sm" aria-label="Change theme" onclick="undangan.theme.change()">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+    </button>
+
+    <!-- Audio Button -->
+    <button type="button" id="button-music" style="bottom: 9vh;" class="btn bg-light-dark border btn-sm rounded-circle btn-float position-fixed shadow-sm" data-url="./assets/music/sound.mp3" aria-label="Change audio" data-offline-disabled="false">
+        <i class="fa-solid fa-circle-pause spin-button"></i>
+    </button>
+
+    <!-- Loading Page -->
     <div class="loading-page bg-white-black" id="loading" style="opacity: 1;">
         <div class="d-flex justify-content-center align-items-center vh-100 overflow-y-scroll">
             <div class="d-flex flex-column width-loading text-center">
@@ -568,17 +578,6 @@
                 </noscript>
             </div>
         </div>
-    <!-- Theme Button -->
-    <button type="button" id="button-theme" style="display: block; bottom: 15vh;" class="btn bg-light-dark border btn-sm rounded-circle btn-float position-fixed shadow-sm" aria-label="Change theme" onclick="undangan.theme.change()">
-        <i class="fa-solid fa-circle-half-stroke"></i>
-    </button>
-
-    <!-- Audio Button -->
-    <button type="button" id="button-music" style="bottom: 9vh;" class="btn bg-light-dark border btn-sm rounded-circle btn-float position-fixed shadow-sm" data-url="./assets/music/sound.mp3" aria-label="Change audio" data-offline-disabled="true">
-        <i class="fa-solid fa-circle-pause spin-button"></i>
-    </button>
-
-
         <div class="text-center position-fixed w-100" style="bottom: 8%; left: 0;">
             <div class="d-flex flex-column">
                 <small class="text-secondary">from</small>
